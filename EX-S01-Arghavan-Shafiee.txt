@@ -1,0 +1,39 @@
+﻿
+
+
+ls a*|wc -w
+
+
+##########
+
+
+users| wc -w
+
+
+##########
+
+
+for i in {1..100}
+do
+touch file$i
+done
+
+
+##########
+
+
+mkdir newdir
+for i in {1..9}; do cp file$i newdir; done
+
+
+##########
+
+
+ls -lrt | tail -1 | awk '{ print $9 }'
+
+
+##########
+
+ارغوان شفیعی
+
+
